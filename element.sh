@@ -25,7 +25,8 @@ else
     SYMBOL=$($PSQL "SELECT symbol FROM elements WHERE elements.atomic_number = $ATOMIC_NUMBER")
     echo "The element with atomic number $ATOMIC_NUMBER is $NAME ($SYMBOL). It's a $TYPE, with a mass of $ATOMIC_MASS amu. $NAME has a melting point of $MELTING_POINT celsius and a boiling point of $BOILING_POINT celsius."
   fi
-fi# Periodic Table Script
+fi
+# Periodic Table Script
 # Query database
 # Check argument
 # Output result
