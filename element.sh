@@ -27,3 +27,4 @@ else
   fi
 fi# Periodic Table Script
 # Query database
+# Check argument
